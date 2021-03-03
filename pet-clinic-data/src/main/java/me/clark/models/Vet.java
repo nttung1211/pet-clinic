@@ -1,4 +1,4 @@
-package me.clark.petclinic.models;
+package me.clark.models;
 
 public class Vet extends Person{
 }

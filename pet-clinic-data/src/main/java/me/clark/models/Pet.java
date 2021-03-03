@@ -1,4 +1,4 @@
-package me.clark.petclinic.models;
+package me.clark.models;
 
 import java.time.LocalDate;
 
