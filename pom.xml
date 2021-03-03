@@ -14,7 +14,7 @@
     </parent>
     <groupId>me.clark</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>pet-clinic</name>
     <description>Pet clinic project</description>
     <properties>
@@ -34,6 +34,7 @@
 <!--                    <checkModificationExcludes>-->
 <!--                        <checkModificationExclude>pom.xml</checkModificationExclude>-->
 <!--                    </checkModificationExcludes>-->
+<!--                    *** <if err:> pom.xml modification <then> add and commit the pom file or uncomment the above-->
                     <goals>install</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
@@ -44,7 +45,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/nttung1211/pet-clinic.git</developerConnection>
 <!--        <tag>HEAD</tag>-->
-      <tag>HEAD</tag>
+      <tag>pet-clinic-0.0.2</tag>
   </scm>
 
 </project>
