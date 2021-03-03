@@ -44,8 +44,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/nttung1211/pet-clinic.git</developerConnection>
-<!--        <tag>HEAD</tag>-->
-      <tag>HEAD</tag>
+        <tag>HEAD</tag>
   </scm>
 
 </project>
