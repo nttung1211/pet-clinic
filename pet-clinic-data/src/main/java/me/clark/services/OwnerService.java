@@ -4,5 +4,5 @@ import me.clark.models.Owner;
 
 
 public interface OwnerService extends CrudService<Owner, Long> {
-	Owner findByLastName();
+	Owner findByLastName(String lastName);
 }
