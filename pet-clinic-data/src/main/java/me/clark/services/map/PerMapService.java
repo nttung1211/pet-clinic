@@ -2,9 +2,11 @@ package me.clark.services.map;
 
 import me.clark.models.Pet;
 import me.clark.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PerMapService extends AbstractMapService<Pet, Long> implements PetService {
 	
 	@Override

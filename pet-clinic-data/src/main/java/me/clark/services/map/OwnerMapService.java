@@ -2,9 +2,12 @@ package me.clark.services.map;
 
 import me.clark.models.Owner;
 import me.clark.services.OwnerService;
+import me.clark.services.map.AbstractMapService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
 	
 	@Override
